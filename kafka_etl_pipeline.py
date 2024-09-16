@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 import matplotlib.pyplot as plt
 
 # PostgreSQL connection details
-DATABASE_URI = 'postgresql+psycopg2://user:password@localhost:5432/kafka_db'
+DATABASE_URI = ''
 
 # Kafka settings
 KAFKA_TOPIC = 'public_topic'
